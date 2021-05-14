@@ -29,7 +29,7 @@ class Distribution:
             self.data[source][destination] = NodeData(source, destination)
         self.data[source][destination].add_sample(delta)
 
-    def store_sample(self):
+    def store_sample(self, file_name):
         for source in self.data.keys():
             for destination in self.data.keys():
                 print(source+';'+destination+';'.join([str(delta) for delta in self.data[source][destination]])+'\n')

@@ -1,0 +1,17 @@
+.idea/
+*/.ipynb_checkpoints/*
+*.log
+*.fdb_latexmk
+*.aux
+*.fls
+*.ist
+*.out
+*.gz
+
+## Python
+**/__pycache__ 
+**/.ipynb_checkpoints
+*.pyc
+
+## Code
+.vscode
